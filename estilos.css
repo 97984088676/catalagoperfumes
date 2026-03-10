@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secondary: 'Krona One', sans-serif;
+    --color-background: #f5f5f5;
+    --color-text: #6e5b54;
+    --color-accent: #c3b68c;
+}
+
+body {
+    font-family: var(--font-primary);
+    background-color: var(--color-background);
+    color: var(--color-text);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: var(--font-secondary);
+    color: var(--color-accent);
+    margin-top: 0;
+}
+
+.navegacao{
+    background-color: var(--color-accent);
+    padding: 2% 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-link {
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /* adiciona negrito */
+    font-size: 24px;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.banner{
+    background-color: var(--color-text);
+    color: var(--color-background);
+    text-align: center;
+    padding: 100px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.faixa-de-baixo{
+    background-color: #f5f5f5;
+    text-align: justify;
+    padding: 100px 0;
+    display:flex;
+    flex-direction: column;
+    align-items: justify;
+    justify-content: justify;
+    gap: 20px;
+    width: 100%;
+}
+
+.negrito{
+    color: #4D2B8C;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    width: 40%;
+    text-align: left;
+}
+
+.p-dois{
+    display:flex;
+    align-items: center;
+    justify-content: left;
+    gap: 50px;
+    padding: 50px;
+
+}
+
+.produtos{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 60px;
+    margin: 0 auto;
+    padding: 60px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.produto{
+    text-align: center;
+}
+
+.produto img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.titulo{
+    font-size: 36px;
+    width: 615px;
+    margin: 0;
+    font-weight: bold; 
+}
+
+.subtitulo{
+    font-size: 28px;
+    text-align: center;
+}
+
+.rodape {
+    background-color: var(--color-accent);
+    color: var(--color-text);
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.agradecimento{
+    font-weight: bold;
+}
+
+.link a{
+    color: var(--color-background);
+
+}
+
+.paragrafo{
+    text-align: justify;
+    padding: 40px;
+}
+
+.navegacao,
+.banner,
+.faixa-de-baixo,
+.produto,
+.rodape {
+    width: 100%;
+    margin: 0;
+}
+
+html, body{
+    width: 100%; 
+    max-width: 100%;
+    overflow-x: hidden ;
+}
+
+.container{
+    width: 100%;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
+
+.produto{
+    width: 200px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:40px;
+}
+
+.texto{
+    width: 50%;
+}
+
+.imagem {
+    width: 250px;
+}
+
+.conteudo-dois{
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+
+}
+
+.p-conteudo-dois{
+    font-weight: bold;
+    color: var(--color-text);
+}
+
+.contato{
+    padding: 40px;
+    text-align: center;
+}
+
+.ctt{
+    color: var(--color-text);
+}
+
