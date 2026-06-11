@@ -1,6 +1,6 @@
 # Catálogo de Perfumes Fictício 🌸
 
-Este projeto é um catálogo fictício de perfumes desenvolvido com HTML e CSS. O objetivo é apresentar uma coleção de fragrâncias de forma elegante e organizada, simulando uma página de divulgação de produtos para fins de estudo e prática de desenvolvimento web.
+Este projeto é um catálogo fictício de perfumes desenvolvido com HTML e CSS. O objetivo é apresentar uma coleção de perfumes de forma elegante e organizada, simulando uma página de divulgação de produtos para fins de estudo e prática de desenvolvimento web.
 
 ## Funcionalidades
 
